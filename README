@@ -5,3 +5,9 @@ SYNOPSIS
       $ git copy src dest
 
 DESCRIPTION
+AUTHOR
+    Kensuke Nagae <kyanny at gmail dot com>
+
+LICENSE
+    http://kyanny.mit-license.org/
+
