@@ -1,0 +1,48 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+
+sub usage {
+  print <<USAGE;
+Usage: git copy src dest
+       git cp src dest
+USAGE
+  exit(1);
+}
+
+sub main {
+    my ($subcommand, $src, $dest) = @_;
+
+    unless ($subcommand) {
+        usage();
+    }
+
+    unless ($src) {
+        usage();
+    }
+
+    unless ($dest) {
+        usage();
+    }
+
+    exec "cp $src $dest";
+}
+
+main(@_);
+
+__END__
+
+=head1 NAME
+
+git-copy - git subcommand for cp(1)
+
+=head1 SYNOPSIS
+
+  $ git copy src dest
+
+=head1 DESCRIPTION
+
+
+
+=cut
+
