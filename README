@@ -1,0 +1,7 @@
+NAME
+    git-copy - git subcommand for cp(1)
+
+SYNOPSIS
+      $ git copy src dest
+
+DESCRIPTION
