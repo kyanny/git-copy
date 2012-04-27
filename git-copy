@@ -41,5 +41,13 @@ git-copy - git subcommand for cp(1)
 
 
 
+=head1 AUTHOR
+
+Kensuke Nagae <kyanny at gmail dot com>
+
+=head1 LICENSE
+
+http://kyanny.mit-license.org/
+
 =cut
 
