@@ -39,7 +39,9 @@ git-copy - git subcommand for cp(1)
 
 =head1 DESCRIPTION
 
-
+  $ git clone https://github.com/kyanny/git-copy
+  $ export PATH=./git-copy:$PATH
+  $ git copy
 
 =head1 AUTHOR
 

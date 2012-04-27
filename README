@@ -5,6 +5,10 @@ SYNOPSIS
       $ git copy src dest
 
 DESCRIPTION
+      $ git clone https://github.com/kyanny/git-copy
+      $ export PATH=./git-copy:$PATH
+      $ git copy
+
 AUTHOR
     Kensuke Nagae <kyanny at gmail dot com>
 
